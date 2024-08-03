@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecipeManagerApp</string>
+    <string name="recipe_image_desc" />
+</resources>
