@@ -37,6 +37,18 @@
             android:label="Recipe Details"
             android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".RecipeScreenActivity"
+            android:exported="true"
+            android:label="Recipe Details"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="true"
+            android:label="Recipe Details"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

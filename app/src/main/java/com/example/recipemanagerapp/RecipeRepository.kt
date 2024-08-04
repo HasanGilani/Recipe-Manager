@@ -1,48 +1,67 @@
 package com.example.recipemanagerapp
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.tasks.await
 
 class RecipeRepository {
+
     private val db = FirebaseFirestore.getInstance()
-    private val recipesCollection = db.collection("recipes")
-
-    suspend fun insert(recipe: Recipe) {
-        Log.d("RecipeRepository", "Inserting recipe into Firestore: $recipe")
-        recipesCollection.add(recipe).await()
-    }
-
-    suspend fun update(recipe: Recipe) {
-        Log.d("RecipeRepository", "Updating recipe in Firestore: $recipe")
-        recipesCollection.document(recipe.id).set(recipe).await()
-    }
-
-    suspend fun delete(recipe: Recipe) {
-        Log.d("RecipeRepository", "Deleting recipe from Firestore: $recipe")
-        recipesCollection.document(recipe.id).delete().await()
-    }
-
-    suspend fun getRecipeById(id: String): Recipe? {
-        val document = recipesCollection.document(id).get().await()
-        Log.d("RecipeRepository", "Fetched recipe: ${document.toObject(Recipe::class.java)}")
-        return document.toObject(Recipe::class.java)
-    }
+    private val recipesLiveData = MutableLiveData<List<Recipe>>()
 
     fun getAllRecipes(): LiveData<List<Recipe>> {
-        val liveData = MutableLiveData<List<Recipe>>()
-        recipesCollection.addSnapshotListener { snapshot, e ->
-            if (e != null) {
-                Log.e("RecipeRepository", "Error fetching recipes", e)
-                liveData.value = emptyList()
-                return@addSnapshotListener
+        db.collection("recipes")
+            .addSnapshotListener { snapshot, e ->
+                if (e != null) {
+                    // Handle the error
+                    return@addSnapshotListener
+                }
+
+                if (snapshot != null && !snapshot.isEmpty) {
+                    val recipes = snapshot.toObjects(Recipe::class.java)
+                    // Handle legacy data with 'description' field
+                    recipes.forEach { recipe ->
+                        if (recipe.ingredients.isEmpty() && snapshot.documents.isNotEmpty()) {
+                            val document = snapshot.documents.firstOrNull { it.getString("title") == recipe.title }
+                            recipe.ingredients = document?.getString("description") ?: ""
+                        }
+                    }
+                    recipesLiveData.value = recipes
+                }
             }
-            val recipes = snapshot?.toObjects(Recipe::class.java) ?: emptyList()
-            liveData.value = recipes
-            Log.d("RecipeRepository", "Fetched recipes: $recipes")
+        return recipesLiveData
+    }
+
+    fun insert(recipe: Recipe) {
+        db.collection("recipes").add(recipe)
+    }
+
+    fun update(recipe: Recipe) {
+        db.collection("recipes").document(recipe.id).set(recipe)
+    }
+
+    fun delete(recipe: Recipe) {
+        db.collection("recipes").document(recipe.id).delete()
+    }
+
+    fun deleteRecipes(recipes: List<Recipe>) {
+        val batch = db.batch()
+        recipes.forEach { recipe ->
+            val docRef = db.collection("recipes").document(recipe.id)
+            batch.delete(docRef)
         }
+        batch.commit()
+    }
+
+    fun getRecipeById(id: String): LiveData<Recipe> {
+        val liveData = MutableLiveData<Recipe>()
+        db.collection("recipes").document(id).get()
+            .addOnSuccessListener { document ->
+                if (document != null) {
+                    val recipe = document.toObject(Recipe::class.java)
+                    liveData.value = recipe
+                }
+            }
         return liveData
     }
 }

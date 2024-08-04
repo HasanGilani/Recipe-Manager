@@ -5,6 +5,10 @@ import com.google.firebase.firestore.DocumentId
 data class Recipe(
     @DocumentId val id: String = "",
     val title: String = "",
-    val description: String = "",
-    val imageUrl: String = ""
-)
+    var ingredients: String,
+    var recipe: String,
+    var imageUrl: String = ""
+){
+    // No-argument constructor required for Firebase
+    constructor() : this("", "", "", "", null.toString())
+}

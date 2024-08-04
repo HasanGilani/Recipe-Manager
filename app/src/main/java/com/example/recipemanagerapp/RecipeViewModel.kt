@@ -1,36 +1,37 @@
 package com.example.recipemanagerapp
 
-import android.app.Application
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 
-class RecipeViewModel(application: Application) : AndroidViewModel(application) {
+class RecipeViewModel : ViewModel() {
     private val repository = RecipeRepository()
 
-    fun insert(recipe: Recipe) = viewModelScope.launch {
-        repository.insert(recipe)
-    }
+    fun getAllRecipes() = repository.getAllRecipes()
 
-    fun update(recipe: Recipe) = viewModelScope.launch {
-        repository.update(recipe)
-    }
+    fun getRecipeById(id: String) = repository.getRecipeById(id)
 
-    fun delete(recipe: Recipe) = viewModelScope.launch {
-        repository.delete(recipe)
-    }
-
-    fun getRecipeById(id: String): LiveData<Recipe?> {
-        val liveData = MutableLiveData<Recipe?>()
+    fun insert(recipe: Recipe) {
         viewModelScope.launch {
-            liveData.value = repository.getRecipeById(id)
+            repository.insert(recipe)
         }
-        return liveData
     }
 
-    fun getAllRecipes(): LiveData<List<Recipe>> {
-        return repository.getAllRecipes()
+    fun update(recipe: Recipe) {
+        viewModelScope.launch {
+            repository.update(recipe)
+        }
+    }
+
+    fun delete(recipe: Recipe) {
+        viewModelScope.launch {
+            repository.delete(recipe)
+        }
+    }
+
+    fun deleteRecipes(recipes: List<Recipe>) {
+        viewModelScope.launch {
+            repository.deleteRecipes(recipes)
+        }
     }
 }

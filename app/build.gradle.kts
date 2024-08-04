@@ -50,8 +50,6 @@ android {
     }
 }
 
-
-
 dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.1.2"))
     implementation(libs.androidx.core.ktx)
@@ -67,6 +65,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.firebase.common.ktx)
     implementation(libs.firebase.firestore.ktx)
+    implementation(libs.firebase.storage.ktx)
+    implementation("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
