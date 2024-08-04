@@ -49,6 +49,10 @@ class MainActivity : AppCompatActivity(), ActionMode.Callback {
             val intent = Intent(this, AddEditRecipeActivity::class.java)
             startActivity(intent)
         }
+
+        // Start the recipe fetching service
+        val serviceIntent = Intent(this, RecipeFetchService::class.java)
+        startService(serviceIntent)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

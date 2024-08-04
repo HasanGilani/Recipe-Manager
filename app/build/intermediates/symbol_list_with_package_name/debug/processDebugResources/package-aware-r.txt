@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim drop_down_bounce
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -77,6 +78,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+attr SwipeFlingStyle
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -821,6 +823,7 @@ attr maxLines
 attr maxNumber
 attr maxVelocity
 attr maxWidth
+attr max_visible
 attr measureWithLargestChild
 attr menu
 attr menuAlignmentMode
@@ -830,6 +833,7 @@ attr minHideDelay
 attr minSeparation
 attr minTouchTargetSize
 attr minWidth
+attr min_adapter_stack
 attr mock_diagonalsColor
 attr mock_label
 attr mock_labelBackgroundColor
@@ -951,6 +955,7 @@ attr region_widthMoreThan
 attr removeEmbeddedFabElevation
 attr reverseLayout
 attr rippleColor
+attr rotation_degrees
 attr round
 attr roundPercent
 attr saturation
@@ -1280,6 +1285,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color base
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -2026,6 +2032,7 @@ color purple_500
 color purple_700
 color ripple_material_dark
 color ripple_material_light
+color second_base
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -2927,6 +2934,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_vegetables
+drawable blur_overlay
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2981,7 +2990,11 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notification
+drawable ic_notifications
+drawable ic_placeholder
 drawable ic_search_black_24
+drawable ic_vegetables
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3055,9 +3068,16 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_background
+drawable rounded_bottom_image
+drawable settings
 drawable test_level_drawable
+drawable text_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font falling_sky
+font falling_sky_bold
+font falling_sky_bolder
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3137,6 +3157,8 @@ id always
 id androidx_compose_ui_view_composition_context
 id animateToEnd
 id animateToStart
+id appName
+id appNameTextView
 id arc
 id asConfigured
 id async
@@ -3193,7 +3215,6 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
-id deleteRecipeButton
 id deltaRelative
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -3275,6 +3296,8 @@ id ignoreRequest
 id image
 id indeterminate
 id info
+id ingredients
+id ingredientsTitle
 id inspection_slot_table_set
 id invisible
 id inward
@@ -3406,6 +3429,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id recipeDetailTitle
 id recipeDetails
 id recipeImage
 id recipeImageView
@@ -3447,6 +3471,7 @@ id select_dialog_listview
 id selected
 id selection_type
 id setAlarmButton
+id settingsButton
 id shortcut
 id showCustom
 id showHome
@@ -3668,6 +3693,7 @@ layout activity_main
 layout activity_recipe_detail
 layout activity_recipe_screen
 layout activity_settings
+layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -4351,6 +4377,7 @@ style Platform_V21_AppCompat_Light
 style Platform_V25_AppCompat
 style Platform_V25_AppCompat_Light
 style Platform_Widget_AppCompat_Spinner
+style RoundedImage
 style RtlOverlay_DialogWindowTitle_AppCompat
 style RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
 style RtlOverlay_Widget_AppCompat_DialogTitle_Icon
@@ -4430,6 +4457,7 @@ style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen
 style ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year
 style ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox
+style SwipeFling
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -5284,6 +5312,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeFlingAdapterView SwipeFlingStyle max_visible min_adapter_stack rotation_degrees
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

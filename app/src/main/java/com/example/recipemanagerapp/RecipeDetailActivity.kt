@@ -24,8 +24,8 @@ class RecipeDetailActivity : AppCompatActivity() {
 
         recipeImage = findViewById(R.id.recipeImage)
         recipeTitle = findViewById(R.id.recipeTitle)
-        deleteRecipeButton = findViewById(R.id.deleteRecipeButton)
-        setAlarmButton = findViewById(R.id.setAlarmButton)
+        //deleteRecipeButton = findViewById(R.id.deleteRecipeButton)
+        //setAlarmButton = findViewById(R.id.setAlarmButton)
 
         val recipeId = intent.getStringExtra("RECIPE_ID")
         if (recipeId != null) {

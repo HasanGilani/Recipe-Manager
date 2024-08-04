@@ -1,10 +1,10 @@
-#Sat Aug 03 21:55:25 EDT 2024
-base.0=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.4=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.5=D\:\\projj\\Recipe-Manager\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Sun Aug 04 17:12:00 EDT 2024
+base.0=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.3=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+base.4=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.5=/Users/hasangilani/Desktop/Lakehead/Mobile Programming/RecipeManagerApp/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

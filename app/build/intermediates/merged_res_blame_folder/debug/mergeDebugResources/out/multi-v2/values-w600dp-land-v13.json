@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.recipemanagerapp-mergeDebugResources-61:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.example.recipemanagerapp-mergeDebugResources-63:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\caches\\transforms-4\\cf6019950095c62b3b09734155419b80\\transformed\\material-1.12.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "/Users/hasangilani/.gradle/caches/transforms-4/5becabac1016120aa16e4c7f6feb9641/transformed/material-1.12.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

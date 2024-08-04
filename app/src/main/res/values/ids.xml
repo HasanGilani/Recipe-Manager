@@ -4,4 +4,6 @@
     <item name="saveRecipeButton" type="id" />
     <item name="editTextRecipeTitle" type="id" />
     <item name="setAlarmButton" type="id" />
+    <item name="appName" type="id" />
+    <item name="settingsButton" type="id" />
 </resources>

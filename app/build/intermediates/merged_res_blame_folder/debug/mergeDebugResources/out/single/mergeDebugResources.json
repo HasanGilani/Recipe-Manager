@@ -1,114 +1,170 @@
 [
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_settings.png.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/settings.png"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\menu_menu_settings.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\menu\\menu_settings.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_text_background.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/text_background.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_blur_overlay.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/blur_overlay.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_main.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.recipemanagerapp-debug-63:/menu_menu_delete.xml.flat",
-        "source": "com.example.recipemanagerapp-main-65:/menu/menu_delete.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_add.png.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_add.png"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/font_falling_sky.otf.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/font/falling_sky.otf"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/menu_main_menu.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/menu/main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\activity_settings.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/menu_menu_delete.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/menu/menu_delete.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_recipe_card.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\recipe_card.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/anim_drop_down_bounce.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/anim/drop_down_bounce.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\xml\\backup_rules.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_rounded_bottom_image.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/rounded_bottom_image.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\activity_main.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/font_falling_sky_bold.otf.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/font/falling_sky_bold.otf"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_recipe_card.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/recipe_card.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_activity_add_edit_recipe.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\activity_add_edit_recipe.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_background_vegetables.jpg.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/background_vegetables.jpg"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.recipemanagerapp-debug-63:/menu_main_menu.xml.flat",
-        "source": "com.example.recipemanagerapp-main-65:/menu/main_menu.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_recipe_screen.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_recipe_screen.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\menu_main_menu.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\menu\\main_menu.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/xml_backup_rules.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_item_recipe.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\item_recipe.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_notifications.png.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_notifications.png"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\xml\\data_extraction_rules.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_rounded_background.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/rounded_background.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_activity_recipe_screen.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\activity_recipe_screen.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/menu_menu_settings.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/menu/menu_settings.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\layout_activity_recipe_detail.xml.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\layout\\activity_recipe_detail.xml"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_add_edit_recipe.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_add_edit_recipe.xml"
     },
     {
-        "merged": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-debug-63:\\drawable_ic_add.png.flat",
-        "source": "C:\\Users\\SyedAliZaminGilani\\.gradle\\daemon\\8.7\\com.example.recipemanagerapp-main-65:\\drawable\\ic_add.png"
+        "merged": "com.example.recipemanagerapp-debug-65:/drawable_ic_notification.png.flat",
+        "source": "com.example.recipemanagerapp-main-67:/drawable/ic_notification.png"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_item_recipe.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/item_recipe.xml"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_placeholder.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_placeholder.xml"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/font_falling_sky_bolder.otf.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/font/falling_sky_bolder.otf"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_recipe_detail.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/drawable_ic_vegetables.png.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/drawable/ic_vegetables.png"
+    },
+    {
+        "merged": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-debug-65:/layout_activity_settings.xml.flat",
+        "source": "/Users/hasangilani/.gradle/daemon/8.7/com.example.recipemanagerapp-main-67:/layout/activity_settings.xml"
     }
 ]
